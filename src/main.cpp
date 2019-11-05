@@ -2,12 +2,9 @@
 
 #include <ESP8266WiFi.h>
 #include <wpa2_enterprise.h>
-
+#include "credentials.hpp"
 
 const char* ssid = "eduroam";
-#define EAP_ID "ppieper@uni-bremen.de"
-#define EAP_USERNAME "ppieper@uni-bremen.de"
-#define EAP_PASSWORD "53494547a04845494C"
 
 void setup() {
   Serial.begin(115200);
